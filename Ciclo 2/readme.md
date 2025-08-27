@@ -1,4 +1,11 @@
 ![Barramento](barramento.png)
+
+    PC1 --- Barramento
+    PC2 --- Barramento
+    PC3 --- Barramento
+
+
+```python
 from mininet.net import Mininet
 from mininet.node import Controller, OVSKernelSwitch
 from mininet.cli import CLI
@@ -35,5 +42,6 @@ def barramento_simulado():
 if __name__ == '__main__':
     setLogLevel('info')
     barramento_simulado()
+
 
 
